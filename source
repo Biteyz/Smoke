@@ -1,1 +1,2 @@
-game.Players.LocalPlayer:Kick("Patched please wait for an update.\nJoin discord server.")
+setclipboard("discord.gg/dhsmoke")
+game.Players.LocalPlayer:Kick("Patched please wait for an update.\nJoin discord server.\ndiscord.gg/dhsmoke")
