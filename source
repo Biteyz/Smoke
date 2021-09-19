@@ -5,3 +5,4 @@
 --use this: loadstring(game:HttpGet(('https://raw.githubusercontent.com/Biteyz/Smoke/main/source')))()
 --ok bye
 
+game.Players.LocalPlayer:Kick("Script is being updated please wait")
