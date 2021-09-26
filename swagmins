@@ -1,6 +1,7 @@
 --prem
 swagmins = { 
-2230548582,
-236662452,
+2230548582,--bitey
+236662452,--huntr
+201423332,--bitey alt
 }
 return swagmins
