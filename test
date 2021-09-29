@@ -1,8 +1,7 @@
---This script reveals ALL hidden messages in the default chat
 --chat "/spy" to toggle!
 enabled = true
 --if true will check your messages too
-spyOnMyself = false
+spyOnMyself = true
 --if true will chat the logs publicly (fun, risky)
 public = false
 --if true will use /me to stand out
@@ -63,3 +62,5 @@ if not player.PlayerGui:FindFirstChild("Chat") then wait(3) end
 local chatFrame = player.PlayerGui.Chat.Frame
 chatFrame.ChatChannelParentFrame.Visible = true
 chatFrame.ChatBarParentFrame.Position = chatFrame.ChatChannelParentFrame.Position+UDim2.new(UDim.new(),chatFrame.ChatChannelParentFrame.Size.Y)
+wait(8)
+notify('SpyChat enabled!')
